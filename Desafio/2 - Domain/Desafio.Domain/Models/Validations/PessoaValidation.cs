@@ -61,12 +61,12 @@ namespace Desafio.Domain.Models.Validations
         {
             if(string.IsNullOrEmpty(cpfCnpj)) return true;
 
-            if(cpfCnpj.Trim().Replace(".", "").Replace("-", "").Replace("/", "").Length > 11)
+            if(cpfCnpj.Trim().Replace(".", "").Replace("-", "").Replace("/", "").Length < 12)
             {
                 return IsCpf(cpfCnpj);
             }
 
-            return IsCpf(cpfCnpj);
+            return IsCnpj(cpfCnpj);
         }
 
         public bool IsCnpj(string cnpj)

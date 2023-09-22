@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="34.0.2" />
+    <PackageReference Include="coverlet.collector" Version="6.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Faker.NETCore" Version="1.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.22" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.22" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.7.2" />
+    <PackageReference Include="xunit" Version="2.5.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\2 - Domain\Desafio.Domain\Desafio.Domain.csproj" />
+    <ProjectReference Include="..\..\3 - Service\Desafio.Service\Desafio.Service.csproj" />
+    <ProjectReference Include="..\..\4 - Infra\4.1 - Data\Desafio.Infra.Data\Desafio.Infra.Data.csproj" />
+    <ProjectReference Include="..\..\4 - Infra\4.2 - CrossCutting\Desafio.Infra.CrossCutting\Desafio.Infra.CrossCutting.csproj" />
+  </ItemGroup>
+
+</Project>
