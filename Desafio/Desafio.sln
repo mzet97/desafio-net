@@ -15,21 +15,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{3B8034BC-D696-4C87-974D-ACBE01BF2C62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio.WebAPI", "1 - Application\Desafio.WebAPI\Desafio.WebAPI.csproj", "{DA828C4B-F6F1-4364-82C1-FF5860A24B4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.WebAPI", "1 - Application\Desafio.WebAPI\Desafio.WebAPI.csproj", "{DA828C4B-F6F1-4364-82C1-FF5860A24B4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio.Domain", "2 - Domain\Desafio.Domain\Desafio.Domain.csproj", "{149A3EA7-0CFD-4466-A2FE-94C6A63C52A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.Domain", "2 - Domain\Desafio.Domain\Desafio.Domain.csproj", "{149A3EA7-0CFD-4466-A2FE-94C6A63C52A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio.Service", "3 - Service\Desafio.Service\Desafio.Service.csproj", "{3D5E01EF-7885-41EE-B0B1-E22C4907CC52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.Service", "3 - Service\Desafio.Service\Desafio.Service.csproj", "{3D5E01EF-7885-41EE-B0B1-E22C4907CC52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio.Infra.Data", "4 - Infra\4.1 - Data\Desafio.Infra.Data\Desafio.Infra.Data.csproj", "{F60485AD-F271-4998-AD29-9D1752CB4503}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.Infra.Data", "4 - Infra\4.1 - Data\Desafio.Infra.Data\Desafio.Infra.Data.csproj", "{F60485AD-F271-4998-AD29-9D1752CB4503}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.Infra.CrossCutting", "4 - Infra\4.2 - CrossCutting\Desafio.Infra.CrossCutting\Desafio.Infra.CrossCutting.csproj", "{28A431AD-6F30-4423-98FB-3912FFEFC2AB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testes", "Testes", "{7D417533-4F59-4131-9237-209442B5E2E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio.IntegrationTest", "Testes\Desafio.IntegrationTest\Desafio.IntegrationTest.csproj", "{60BC8DCE-D950-4E2F-B44B-1A34B88E9063}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.IntegrationTest", "Testes\Desafio.IntegrationTest\Desafio.IntegrationTest.csproj", "{60BC8DCE-D950-4E2F-B44B-1A34B88E9063}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio.UnitTest", "Testes\Desafio.UnitTest\Desafio.UnitTest.csproj", "{07F76A60-CCCE-48F0-B482-1D9E1F6B61FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.UnitTest", "Testes\Desafio.UnitTest\Desafio.UnitTest.csproj", "{07F76A60-CCCE-48F0-B482-1D9E1F6B61FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

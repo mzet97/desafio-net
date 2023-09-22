@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -49,5 +49,6 @@
     <ProjectReference Include="..\..\4 - Infra\4.1 - Data\Desafio.Infra.Data\Desafio.Infra.Data.csproj" />
     <ProjectReference Include="..\..\4 - Infra\4.2 - CrossCutting\Desafio.Infra.CrossCutting\Desafio.Infra.CrossCutting.csproj" />
   </ItemGroup>
+
 
 </Project>
